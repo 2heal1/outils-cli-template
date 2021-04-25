@@ -10,5 +10,5 @@
     },
     "author": "{{author}}",
     "license": "ISC",
-    "dependencies":"{{dependencies}}"
+    "dependencies":"{{{dependencies}}}"
   }
