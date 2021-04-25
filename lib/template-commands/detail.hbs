@@ -1,0 +1,14 @@
+const inquirer = require("inquirer");
+const log = require('../../utils/log');
+
+async function {{commandName}}(options) {
+    const answer = await inquirer.prompt({{questions}});
+    log.success({{commandName}})
+    log.success(answer)
+    log.success(answer)
+}
+
+
+module.exports = async (options) => {
+    {{commandName}}(options)
+};
